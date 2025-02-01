@@ -1,0 +1,98 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Form Box Styling */
+.form-box {
+    background: white;
+    padding: 30px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+/* Form Title Styling */
+.form-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Form Subtitle Styling */
+.form-subtitle {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Table Layout for the Form Fields */
+.form-table {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    text-align: left;
+}
+
+/* Table Data Styling */
+.form-table td {
+    padding: 8px;
+}
+
+/* Input and Select Styling */
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Radio Button Styling */
+input[type="radio"] {
+    width: auto;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* Labels for Radio Buttons */
+td input[type="radio"] + label {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+/* Unified Button Styling */
+button, input[type="submit"], a.button-link {
+    background-color: #007bff; /* Same color */
+    color: white;
+    border: none;
+    padding: 10px 0; /* Same padding */
+    cursor: pointer;
+    text-decoration: none;
+    display: block; /* Ensure they are block elements */
+    text-align: center;
+    border-radius: 5px;
+    width: 100%; /* Ensure they take the same width */
+    margin-top: 10px;
+}
+
+/* Button Hover Effect */
+button:hover, input[type="submit"]:hover, a.button-link:hover {
+    background-color: #0056b3; /* Same hover effect */
+}
+
+/* Button Container for Consistent Layout */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%; /* Ensure full width for the buttons */
+}
