@@ -1,0 +1,38 @@
+[
+    {
+        "first_name": "Rahiq",
+        "last_name": "Al-Makhtum",
+        "email": "rahiq789@gmail.com",
+        "phone": "01872176878",
+        "address": "133\/4 West Manikdi, Dhaka-1206",
+        "store_name": "Danish",
+        "business_license_number": "123",
+        "business_address": "133\/4 West Manikdi, Dhaka-1206",
+        "gender": "male",
+        "date_field": "2024-12-21"
+    },
+    {
+        "first_name": "Ethan",
+        "last_name": "Winters",
+        "email": "ethanwint@gmail.com",
+        "phone": "01111111111",
+        "address": "Kuratoli",
+        "store_name": "Dihan boi bitan",
+        "business_license_number": "123",
+        "business_address": "133\/4 West Manikdi, Dhaka-1206",
+        "gender": "male",
+        "date_field": "2024-12-21"
+    },
+    {
+        "first_name": "Sakib",
+        "last_name": "Shahadat",
+        "email": "sakib123@gmail.com",
+        "phone": "01872176878",
+        "address": "133\/4 West Manikdi, Dhaka-1206",
+        "store_name": "Danish",
+        "business_license_number": "123",
+        "business_address": "133\/4 West Manikdi, Dhaka-1206",
+        "gender": "male",
+        "date_field": "2024-12-21"
+    }
+]

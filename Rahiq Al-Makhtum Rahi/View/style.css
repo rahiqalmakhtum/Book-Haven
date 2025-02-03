@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #89ccf8, #904bac);
+    background-image: url(img/wmremove-transformed.jpg);
+    margin: 0;
+}
+
+
+.seller-container{
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 700px;
+}
+
+.login-container {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 350px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    margin: 10px;
+    color: rgb(140, 39, 180);
+} 
+
+h2 {
+    font-weight: 500;
+    color: rgb(140, 39, 180);
+    margin: 0px 0px 10px;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 12px;
+    text-align: center;
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.tablerow {
+    display: flex;
+    flex-direction: column;
+}
+
+.bookrow {
+    text-align: left;
+}
+
+.bookdata {
+    padding-right: 60px;
+}
+.left-column, .right-column {
+    width: 48%;
+}
+
+.input-column {
+    width: 100%;
+}
+
+td {
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.gender{
+    padding-top: 10px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgb(211, 210, 210);
+}
+
+
+input[type="radio"] {
+    margin: 0 5px;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type="submit"]{
+    height: 40px;
+    font-size: 14px;
+    font-weight: 500;
+    width: 120px;
+    margin-right: 10px;
+    color: white;
+    box-shadow: rgb(211, 210, 210) 1px 1px 1px;
+    background: linear-gradient(135deg, rgb(113, 183, 230), rgb(155, 89, 182));
+    border-style: none;
+    border-radius: 5px;
+}
+
+
+input[type="reset"] {
+    height: 40px;
+    font-size: 14px;
+    font-weight: 500;
+    width: 120px;
+    margin-right: 10px;
+    color: white;
+    box-shadow: rgb(211, 210, 210) 1px 1px 1px;
+    background: linear-gradient(135deg, rgb(230, 113, 113), rgb(182, 89, 89));
+    border-style: none;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover{
+    background: linear-gradient(135deg, #40a5e9, #8c27b4);
+}
+
+input[type="reset"]:hover {
+    background: linear-gradient(135deg, #e94040, #b42727);
+}
+
+
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgb(211, 210, 210);
+    background-color: #fff;
+    cursor: pointer;
+    color: #707070; /* Match the text color with the input fields */
+}
+
+
+select:hover, input[type="text"]:hover, input[type="password"]:hover{
+    border-color: #999;
+}
+
+textarea {
+    width: 100%;
+    height: 120px;
+    resize: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgb(211, 210, 210);
+    background-color: #fff;
+}
+
+.error {
+    font-size: 12px;
+    color: #e94040;
+}
